@@ -23,6 +23,10 @@ group :assets do
   gem 'zurb-foundation', '~> 4.0.0'
 end
 
+group :test do
+  gem 'capybara'
+end
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
 
