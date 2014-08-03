@@ -5718,3 +5718,13 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
+
+footer {
+  margin-top: 50px;
+  background-color: #000;
+  color: #eee;
+  text-align: center;
+  p {
+    line-height: 100px;
+  }
+}
