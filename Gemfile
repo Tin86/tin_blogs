@@ -16,7 +16,7 @@ end
 
 # Use SCSS for stylesheets
 group :assets do
-  gem 'sass-rails', '~> 4.0.1'
+  gem 'sass-rails', '~> 4.0.1'  
   gem 'coffee-rails', '~> 4.0.1'
   gem 'uglifier', '2.1.1'
 
@@ -60,3 +60,5 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'rails_admin'
