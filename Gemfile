@@ -10,6 +10,10 @@ group :development, :test do
   gem 'sqlite3', '1.3.8'
 end
 
+group :test, :development do
+  gem "rspec-rails", "~> 2.0"
+end
+
 # Use SCSS for stylesheets
 group :assets do
   gem 'sass-rails', '~> 4.0.1'
