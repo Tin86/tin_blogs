@@ -9,6 +9,10 @@ TinBlogs::Application.routes.draw do
 
   get '/about', :to => 'pages#about'
 
+  get '/404', :to => 'errors#not_found'
+  get '/500', :to => 'errors#internal_error'
+  get '/422', :to => 'errors#unprocessable_entity'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
